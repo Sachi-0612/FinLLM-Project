@@ -12,7 +12,7 @@ from sklearn.metrics import accuracy_score, balanced_accuracy_score, f1_score, m
 from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import make_pipeline
 
-from data_pipeline import walk_forward_splits
+from FinLLM.data_pipeline import walk_forward_splits
 
 FEATURES = ["ret_1d", "rsi_14", "macd", "macd_signal", "macd_diff",
             "bb_pct", "bb_width", "sma_10", "sma_50", "ema_20", "vol_chg"]
